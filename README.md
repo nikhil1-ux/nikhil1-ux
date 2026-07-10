@@ -1,166 +1,97 @@
-# AI Interview Platform
+<h1 align="center">Hi 👋, I'm Nikhil Yadav</h1>
+<h3 align="center">Full-Stack MERN Developer | Building AI-powered web applications</h3>
 
-A full-stack, AI-powered interview platform that lets recruiters create job-description-based interviews and candidates complete AI-generated, one-shot interviews — scored and ranked automatically.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2ECC71&center=true&vCenter=true&width=600&lines=Full-Stack+MERN+Developer;React+%7C+Node.js+%7C+Express+%7C+MongoDB;Building+an+AI-Powered+Interview+Platform;B.Tech+CSE+%40+University+of+Lucknow+(2027)" alt="Typing SVG" />
+</p>
 
-**Live App:** [Add your deployed link here]
-**Repo:** https://github.com/nikhil1-ux/Ai-interview-platform-full-project
-
----
-
-## Overview
-
-Recruiters create an interview tied to a job description. Candidates upload their resume, and the platform parses it to generate tailored technical questions using AI. Candidates complete a real-time, one-shot interview session, and their answers are automatically evaluated and scored — giving recruiters a ranked view of candidates without manual screening.
-
----
-
-## Features
-
-**For Recruiters**
-- Create and manage job-description-based interviews
-- Assign interviews to candidates and track completion status
-- View candidate performance, scores, and rankings on a dashboard
-- Edit/delete interviews and cancel assignments
-
-**For Candidates**
-- Upload resume (PDF/DOCX) for automated parsing
-- Take AI-generated, resume-tailored technical interview questions
-- Real-time interview session with per-question countdown timer and auto-submit
-- View performance history and ranking after completion
-
-**Platform**
-- JWT-based authentication with role-based access (recruiter / candidate)
-- Real-time interview flow via Socket.IO (join, submit-answer, reconnect, disconnect handling)
-- AI question generation and answer scoring (Groq via OpenAI SDK, migrated from Gemini)
-- Resume text extraction (`pdf-parse`, `mammoth`) and file storage via Cloudinary
-- Automated performance reports and recruiter analytics
+<p align="center">
+  <a href="https://linkedin.com/in/your-linkedin-handle" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:nikhilyadav9044@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/nikhil1-ux" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-## Tech Stack
+### 🚀 About Me
 
-**Frontend:** React.js, React Router, Redux Toolkit, Tailwind CSS, Socket.IO client
-**Backend:** Node.js, Express.js, Socket.IO, JWT Authentication
-**Database:** MongoDB, Mongoose
-**AI:** Groq API (via OpenAI SDK), Google Gemini API
-**File Handling:** Multer, Cloudinary, pdf-parse, mammoth
-**Deployment:** Vercel (CI/CD via GitHub)
-
----
-
-## Architecture
-
-```
-Client (React)
-   │
-   ├── REST API ──────► Express Server ──► MongoDB (Mongoose)
-   │                         │
-   └── Socket.IO ────────────┤
-                              ├── AI Service (Groq / Gemini) — question generation & scoring
-                              └── Cloudinary — resume storage
-
-Flow:
-Recruiter creates interview (JD) → Candidate uploads resume → Resume parsed (pdf-parse/mammoth)
-   → AI generates tailored questions → Candidate completes one-shot interview (Socket.IO, timed)
-   → AI scores answers → Recruiter views ranked results
-```
+- 🎓 B.Tech in Computer Science, University of Lucknow (Expected 2027)
+- 💻 Full-stack MERN developer, currently building **[AI Interview Platform](https://github.com/nikhil1-ux/Ai-interview-platform-full-project)** — an AI-powered recruitment tool with resume parsing, real-time interviews, and automated candidate scoring
+- 🌱 Currently learning: TypeScript, Next.js, Docker, AWS S3, Redis, WebRTC
+- 📍 Based in Lucknow, India
+- 💬 Ask me about React, Node.js, Socket.IO, or MongoDB
+- ⚡ Fun fact: I learn best by breaking things and debugging my way back
 
 ---
 
-## Getting Started
+### 🛠️ Tech Stack
 
-### Prerequisites
-- Node.js (v18+)
-- MongoDB (local or Atlas)
-- Cloudinary account
-- Groq / Gemini API key
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/nikhil1-ux/Ai-interview-platform-full-project.git
-cd Ai-interview-platform-full-project
-
-# Install backend dependencies
-cd backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-```
-
-### Environment Variables
-
-Create a `.env` file in the `backend` directory:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-JWT_REFRESH_SECRET=your_refresh_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-GROQ_API_KEY=your_groq_key
-GEMINI_API_KEY=your_gemini_key
-```
-
-Create a `.env` file in the `frontend` directory:
-
-```env
-VITE_API_BASE_URL=http://localhost:5000
-VITE_SOCKET_URL=http://localhost:5000
-```
-
-### Running Locally
-
-```bash
-# Start backend (from /backend)
-npm run dev
-
-# Start frontend (from /frontend)
-npm run dev
-```
-
-The app will be available at `http://localhost:5173` (frontend) with the API running on `http://localhost:5000`.
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+</p>
 
 ---
 
-## Project Structure
+### 📌 Featured Project
 
-```
-Ai-interview-platform-full-project/
-├── backend/
-│   ├── controllers/       # Route logic (auth, dashboard, interview, assignment)
-│   ├── models/             # Mongoose schemas (User, Interview, Assignment, InterviewSession)
-│   ├── routes/
-│   ├── sockets/            # interview.socket.js — real-time interview handler
-│   ├── services/           # AI question generation & scoring
-│   ├── middleware/         # JWT auth, error handling
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── pages/           # CandidateHome, RecruiterHome, Performance, Ranking, etc.
-│   │   ├── components/
-│   │   ├── socket/          # Singleton socket client
-│   │   └── App.jsx
-└── README.md
-```
+<a href="https://github.com/nikhil1-ux/Ai-interview-platform-full-project">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nikhil1-ux&repo=Ai-interview-platform-full-project&theme=radical" />
+</a>
+
+**AI Interview Platform** — A full-stack MERN application where recruiters create JD-based interviews, candidates upload resumes for AI-generated tailored questions, complete real-time one-shot interviews, and get automatically scored and ranked.
+
+`React` `Node.js` `Express` `MongoDB` `Socket.IO` `JWT` `Groq/Gemini API` `Cloudinary`
+
+<br clear="left"/>
 
 ---
 
-## Roadmap
+### 📊 GitHub Stats
 
-- [ ] Video/audio response scoring (confidence, clarity, engagement)
-- [ ] TypeScript migration
-- [ ] Redis-based session caching
-- [ ] WebRTC for live video interviews
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nikhil1-ux&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhil1-ux&layout=compact&theme=radical&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nikhil1-ux&theme=radical&hide_border=true" />
+</p>
 
 ---
 
-## Author
+### 🐍 Contribution Snake
 
-**Nikhil Yadav**
-B.Tech CSE, University of Lucknow (Expected 2027)
-[GitHub](https://github.com/nikhil1-ux) · [LinkedIn](#) · nikhilyadav9044@gmail.com
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nikhil1-ux/nikhil1-ux/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" />
+  <img src="https://raw.githubusercontent.com/nikhil1-ux/nikhil1-ux/output/github-contribution-grid-snake.svg#gh-light-mode-only" />
+</p>
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nikhil1-ux&theme=radical&no-frame=true&row=1&column=7" />
+</p>
+
+---
+
+<p align="center">
+  <i>⭐️ From <a href="https://github.com/nikhil1-ux">nikhil1-ux</a> — thanks for stopping by!</i>
+</p>
