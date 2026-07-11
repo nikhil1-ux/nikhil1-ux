@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/your-linkedin-handle" target="_blank">
+  <a href= "https://linkedin.com/in/nikhilyadav-dev" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:nikhilyadav9044@gmail.com">
@@ -23,9 +23,8 @@
 
 - 🎓 B.Tech in Computer Science, University of Lucknow (Expected 2027)
 - 💻 Full-stack MERN developer, currently building **[AI Interview Platform](https://github.com/nikhil1-ux/Ai-interview-platform-full-project)** — an AI-powered recruitment tool with resume parsing, real-time interviews, and automated candidate scoring
-- 🌱 Currently learning: TypeScript, Next.js, Docker, AWS S3, Redis, WebRTC
-- 📍 Based in Lucknow, India
-- 💬 Ask me about React, Node.js, Socket.IO, or MongoDB
+- 📍 India
+- 💬 Ask me about React, Node.js,Express.js,Socket.IO, Javascript , MongoDB
 - ⚡ Fun fact: I learn best by breaking things and debugging my way back
 
 ---
